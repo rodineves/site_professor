@@ -4,35 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <h1>André Gustavo</h1>
-
-    <img src="images/andregustavo.jpg" alt="Foto de Perfil de André Gustavo">
-
+    <div class="container">
+        <h1>|-  André Gustavo -|</h1>
+    </div>
+    
     <header>
-        <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Leituras Recomendadas</a></li>
-            <li><a href="http://lattes.cnpq.br/9509872759524095">Currículo Lattes</a></li>
+        <ul class="lista">
+            <li class="item"><a href="index.html" class="links">Sobre</a></li>
+            <li class="item"><a href="projetos.html" class="links">Projetos</a></li>
+            <li class="item"><a href="#" class="links">Leituras Recomendadas</a></li>
+            <li class="item"><a href="http://lattes.cnpq.br/9509872759524095" target="_blank" class="links">Currículo Lattes</a></li>
         </ul>
-
-
     </header>
+
 
     <main>
 
-        <p>Olá! Sou André Gustavo, possuo graduação em Processamento de Dados pela Universidade Potiguar (Unp) em 1997 e mestrado em Sistemas e Computação pela Universidade Federal do Rio Grande do Norte UFRN (2010).</p>
-        <p>Atualmente atuo como professor adjunto da Universidade do Estado do Rio Grande do Norte (UERN) do campus Natal. Tenho experiência na área de Ciência da Computação, com ênfase em Sistemas Distribuídos, atuando principalmente nos seguintes temas: Sistemas Multimídia Distribuídos, Middlewares Adaptativos.</p>
+        <div id="imagem">
+            <img src="images/andregustavo.jpg" alt="Foto de Perfil de André Gustavo" width="250px">
+        </div>
+
+        <p>Olá! Tudo bom?! 😃</p>
+        <p>Me chamo <b style="color: rgb(184, 119, 0);">André Gustavo</b>, atualmente trabalho como professor adjunto da UERN – Universidade do Estado Rio Grande do Norte – campus de Natal/RN.</p>
+        <p>Tenho experiência na área de <b style="color: rgb(91, 91, 253);">Ciência da Computação</b> 💻, principalmente com ênfase em Sistemas Distribuídos, atuando principalmente nos seguintes temas: Sistemas Multimídia Distribuídos e Middlewares Adaptativos.</p>
+        <br>
+        <p><b>Minha Formação Acadêmica:</b> 👨🏼‍🎓</p>
+        
+        <ul>
+            <li>Graduação em Processamento de Dados (UnP - Universidade Potiguar)</li>
+            <li>Mestrado em Sistemas e Computação (UFRN - Universidade Federal do Rio Grande do Norte)</li>
+        </ul>
+        
         <p>Posso ser contatado pelo email: <a href="mailto:andregustavo@uern.br">andregustavo@uern.br</a></p>
     </main>
 
-
     <footer>
 
+        <div class="divi">
+            
+                <hr class="divisao">
+                <p class="barrinha">///</p>
+                <hr class="divisao">
+            
+        </div>
 
+        <div class="assinatura">
+            <p>Made by:</p>
 
+            <img src="images/image-removebg-preview.png" alt="Assinatura de Rodrigo" width="140px" height="110" style="border-radius: 0;">
+
+        </div>
+        
+        <div class="contatos">
+            <p style="margin-left: 680px;" >Contatos de André</p>
+
+            <ul class="lista_contatos">
+                <li class="itens_contatos">
+                    <a href="mailto:andregustavo@uern.br">
+                        <img src="images/correspondencia_marrom.png" alt="imagem email" width="50px" style="border-radius: 0;" class="icones" title="Email">
+                    </a>
+                </li>
+
+                <li class="itens_contatos">
+                    <a href="#">
+                        <img src="images/instagram_marrom.png" alt="imagem instagram" width="50px" style="border-radius: 0;" class="icones" title="Instagram">
+                    </a>
+                </li>
+
+                <li class="itens_contatos">
+                    <a href="#">
+                        <img src="images/linkedin_marrom.png" alt="imagem linkedin" width="50px" style="border-radius: 0;" class="icones" title="LinkedIn">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        
     </footer>
 </body>
 </html>

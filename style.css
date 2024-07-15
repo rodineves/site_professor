@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Estilização para centralizar o texto André Gustavo */
+body{
+    /* margin: 0; */
+    /* padding: 0; */
+    background-color: #faa72b;
+    color: #444;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    width: 65%;
+    margin: auto;
+    padding: 25px;
+    padding-top: 0;
+    margin-top: 0px;
+    border: #444;
+}
+
+main {
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-size: 40px;
+    color: #451800;
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+}
+
+.lista{
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px; /* Ajuste o espaçamento conforme necessário */
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+
+.links{
+    text-decoration: none;
+    font-size: 30px;
+    color: #72410d;
+    font-family: "Kaushan Script", cursive;
+    font-weight: bold;
+}
+
+.lista .item {
+    display: inline-block;
+    margin-right: 40px; /* Ajuste o espaçamento conforme necessário */
+    text-decoration: none;
+}
+
+#imagem {
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+}
+
+img{
+    border-radius:50px;
+}
+
+
+.links:hover{
+    text-decoration: underline;
+    color: #3f2100;
+}
+
+hr {
+    margin-top: 30px;
+    height: 4px; /* Ajuste a altura conforme necessário */
+    background-color: #451800; /* Cor de fundo da linha */
+    border-radius: 30px; /* Remove a borda padrão */
+    border: none;
+}
+
+.divi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divisao {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #000;
+    margin: 0;
+}
+
+.barrinha{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Indie Flower", cursive;
+    font-size: 20px;
+    color: #451800;
+    font-weight: bolder;
+}
+
+footer{
+    color: #451800;
+    font-family: "Indie Flower", cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.assinatura{
+    float: left;
+    margin-right: 400px;
+    margin-left: 100px;
+}
+
+.lista_contatos{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px; /* Ajuste o espaçamento conforme necessário */
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+.itens_contatos{
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin-right: 40px; /* Ajuste o espaçamento conforme necessário */
+    text-decoration: none;
+}
+
+/* A partir daqui so coisa de projetos */
+
+h2 {
+    text-align: center;
+}
+
+h3{
+    font-size: 22px;
+    /* background-color: aqua; */
+    width: 88%;
+    margin-right: 20px;
+}
+
+.pesquisa {
+    padding-left: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.pesquisa h3,
+.pesquisa img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pesquisa p {
+    display: block;
+    margin-top: 10px; /* Adiciona espaço entre a imagem e o parágrafo */
+}
+
+.content {
+    display: none;
+}
+.title {
+    cursor: pointer;
+}
+
+.pesquisa:hover{
+    transform: scale(1.01);
+}
+
+.icones:hover {
+    transform: scale(1.2);
+}
+
+.icones{
+    transition: transform 0.2s;
+}
+/* .contatos{
+    background-color: white;
+} */
