@@ -41,9 +41,8 @@ main {
     text-align: center;
     display: inline-block;
     margin-right: 20px; /* Ajuste o espaçamento conforme necessário */
-    margin-left: 20px;
+    margin-left: 120px;
     text-decoration: none;
-
 }
 
 .links{
@@ -157,6 +156,7 @@ h3{
     border: 3px solid black;
     border-radius: 10px;
     margin-top: 20px;
+    transition: transform 0.2s;
 }
 
 .pesquisa h3,
@@ -187,6 +187,16 @@ h3{
 
 .icones{
     transition: transform 0.2s;
+}
+
+.publica{
+    text-decoration: none;
+    font-weight: bold;
+    color: #e18700;
+}
+
+.publica:hover{
+    color: #913300;
 }
 /* .contatos{
     background-color: white;
